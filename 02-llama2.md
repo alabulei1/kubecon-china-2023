@@ -49,7 +49,7 @@ We built a wasm of this example under the folder, check `wasmedge-ggml-llama-int
 
 ### (Optional) Build from source
 
-If you want to do some modifications, you can build from source.
+If you want to do some modifications, you can [build from the source](https://github.com/second-state/WasmEdge-WASINN-examples/tree/master/wasmedge-ggml-llama-interactive).
 
 Compile the application to WebAssembly:
 
@@ -67,7 +67,7 @@ cp target/wasm32-wasi/release/wasmedge-ggml-llama-interactive.wasm ./wasmedge-gg
 
 In this example, we are going to use codellama2 7b chat model in GGUF format.
 
-Download llama model:
+Download the codellama2 model:
 
 ```bash
 curl -LO https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q5_K_M.gguf
@@ -75,7 +75,7 @@ curl -LO https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main
 
 ## Execute
 
-Execute the WASM with the `wasmedge` using the named model feature to preload large model:
+Execute the WASM with the `wasmedge` using the named model feature to preload the large model:
 
 ```bash
 wasmedge --dir .:. \              
