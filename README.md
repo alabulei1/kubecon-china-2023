@@ -1,7 +1,7 @@
 # Develop, Build & Deploy Lightweight AI Services with WebAssembly
 
 ## Slides
-TBD
+Click [here](https://docs.google.com/presentation/d/1GnDmicALLnK8S6F2ooCYzM6VwbqxofzS/edit?usp=sharing&ouid=105133373012025237699&rtpof=true&sd=true) to get the slides
 
 ## Tutorials
 1. [Run Mediapipe in WasmEdge](01-mediapipe.md)
